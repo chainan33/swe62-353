@@ -14,7 +14,7 @@ def calculateMonth(daysWorked: int, otHours: int, daysLate: int) -> float:
     elif  3 >= otHours >= 0: 
         ot = (otHours)* 60 
 
-    #จำนวนการเทลงานในหนึ่งเดือน
+    #จำนวนการเลทงานในหนึ่งเดือน
     if daysWorked >= 30:
         if daysLate == 0:
             bonus = 1000
